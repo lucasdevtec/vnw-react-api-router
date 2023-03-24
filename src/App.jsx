@@ -1,5 +1,6 @@
 import { useState } from "react";
 import styled from "styled-components";
+import GlobalStyle from "./assets/GlobalStyle";
 import API1 from "./components/API1/RICK";
 import API2 from "./components/API2/POKE";
 import API3 from "./components/API3/API3";
@@ -36,6 +37,7 @@ const FooterUni = styled.footer`
 function App() {
   return (
     <div className="App">
+      <GlobalStyle />
       <Header>
         <h1>Portal Olokinho</h1>
         <Navlist>
