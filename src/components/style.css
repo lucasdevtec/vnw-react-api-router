@@ -1,0 +1,6 @@
+h1 {
+  display: flex;
+  min-width: 300px;
+  align-items: center;
+  justify-content: space-evenly;
+}
