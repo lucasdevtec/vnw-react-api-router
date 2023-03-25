@@ -1,21 +1,30 @@
 import styled from "styled-components";
 
-const MainBox = styled.div`
+const Cardbox = styled.div`
   border: 10px solid black;
-  background-color: aqua;
   width: 300px;
   height: 400px;
   padding: 10px;
   border-radius: 20px;
-  margin 10px
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  align-content: center;
 `;
 
-function Cards() {
+const Imgcop = styled.img`
+  width: 100%;
+  border-radius: 100%;
+`;
+
+function Cards(props) {
   return (
-    <MainBox>
-      <img src="" alt="" />
-      <h3>ola</h3>
-    </MainBox>
+    <Cardbox>
+      <Imgcop src={props.img} alt={props.name} />
+      <h3>{props.name}</h3>
+    </Cardbox>
   );
 }
 

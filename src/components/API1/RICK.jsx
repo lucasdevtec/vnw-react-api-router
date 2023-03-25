@@ -1,6 +1,7 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Cards from "../Cards/Cards";
 import styled from "styled-components";
+import axios from "axios";
 
 const MainBox = styled.main`
   display: flex;
@@ -11,14 +12,18 @@ const MainBox = styled.main`
 `;
 
 function API1() {
+  const [rickAr, setRickAr] = useState([]);
+  useEffect(() => {
+    axios.get("https://rickandmortyapi.com/api/character").then((response) => {
+      setRickAr(response.data.results);
+    });
+    console.log(rickAr);
+  }, []);
   return (
     <MainBox>
-      <Cards />
-      <Cards />
-      <Cards />
-      <Cards />
-      <Cards />
-      <Cards />
+      {rickAr.map((data) => {
+        return <Cards key={data.id} name={data.name} img={data.image} />;
+      })}
     </MainBox>
   );
 }
