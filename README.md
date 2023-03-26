@@ -34,6 +34,7 @@ Develop my experience with React, improving my knowledge and learning new featur
 - [Vite](https://vitejs.dev/) - Vite is a tool with the aim of creating a simple and super fast development environment.
 - [Axios](https://axios-http.com/ptbr/docs/intro) Axios is a promise-based HTTP client for node.js and the browser.
 - [React-Routes-Dom](https://reactrouter.com/en/main) Is a library for React created with the objective of solving routing problems for the pages of a website and making development much simpler and scalable.
+- [Rick-and-Mory-API](https://rickandmortyapi.com/) API da aclamada série animada "Rick and Mory" onde recebemos informações sobre personagens.
 
 ### Guide
 
