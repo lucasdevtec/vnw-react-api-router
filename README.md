@@ -1,6 +1,6 @@
 # Vai na Web - To Do
 
-This is a solution for VNW To Do. Exercise proposed by [Vai na Web](https://vainaweb.com.br/) in the Front-End Developer course.
+This is a solution for VNW API and Router. Exercise proposed by [Vai na Web](https://vainaweb.com.br/) in the Front-End Developer course.
 
 ## Table of contents
 
