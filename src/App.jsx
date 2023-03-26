@@ -32,6 +32,16 @@ const FooterUni = styled.footer`
   min-height: 80px;
   justify-content: center;
   align-content: center;
+  padding: 20px;
+  text-align: center;
+`;
+const Mid = styled.main`
+  display: flex;
+  min-height: 75vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
 `;
 
 function App() {
@@ -56,6 +66,16 @@ function App() {
           </Navlist>
         </Header>
         <Routes>
+          <Route
+            path="/"
+            element={
+              <Mid>
+                <h2>
+                  Click escolha uma opção acima e veja as funcionabilidades.
+                </h2>
+              </Mid>
+            }
+          />
           <Route path="/API1" element={<API1 />} />
           <Route path="/API2" element={<API2 />} />
           <Route path="/API3" element={<API3 />} />
