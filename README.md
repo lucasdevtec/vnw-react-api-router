@@ -45,5 +45,5 @@ Develop my experience with React, improving my knowledge and learning new featur
 
 ## Author
 
-- LinkedIn - [Lucas-Gabriel](hhttps://www.linkedin.com/in/yami-kagayaki/)
+- LinkedIn - [Lucas-Gabriel](https://www.linkedin.com/in/yami-kagayaki/)
 - Frontend Mentor - [Yami-Kagayaki](https://www.frontendmentor.io/profile/Yami-Kagayaki)
